@@ -6,7 +6,9 @@ body {
 }
 
 p {
-    font-size: 100px;
+    display: flex;
+    text-align: center;
+    font-size: 160px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
