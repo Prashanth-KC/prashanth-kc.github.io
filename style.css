@@ -5,11 +5,12 @@ body {
     margin: 0;
 }
 
+
 p {
     display: flex;
     text-align: center;
     font-size: 160px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Caveat Brush', cursive;
 }
 
 a:link {
@@ -21,8 +22,13 @@ a:visited {
     color: black;
 }
 
+.nav {
+    margin-right: 30px;
+}
 
 .top-nav {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,14 +44,20 @@ a:visited {
 }
 
 .top-nav a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
     color: black;
     margin: 10px;
     text-decoration: none;
 }
 
-.content {
+.main {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* * {
+    border: 1px solid red;
+} */
